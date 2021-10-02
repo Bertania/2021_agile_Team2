@@ -18,3 +18,4 @@ function newFact() {
 	
 	document.getElementById('title-fact').innerHTML = fact[index];
 }
+
