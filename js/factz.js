@@ -25,6 +25,7 @@ function newFact() {
 	fact[18]= "Unspayed females only go into heat twice a year, so dog breeders need to plan carefully.";
 	fact[19] = "If your dog excitedly wags its tail, it means they’re happy to see you, right? Not necessarily. According to Discovery.com, dogs wag their tails to the right when they’re happy and to the left when they’re frightened. Wagging low means they’re insecure, and rapid tail wagging accompanied by tense muscles or dilated pupils can signal aggression.";
 	fact[20] = "Newborn dogs are still developing, according to Psychology Today, so their ear canals and eyes are still closed. Most puppies open their eyes and respond to noises after about two weeks.";
+<<<<<<< HEAD
 	fact[21] = "Even though they sweat out through the pads of their paws, their main form of cooling down is panting.";
     fact[22] = "Some pet owners might notice the faint scent of corn chips or popcorn lingering around their dog. This is called “Frito feet,” and it happens when sweat and bacteria build up in the paws.";
     fact[23] = "You might expect your dog’s mouth to smell like, well, dog. But persistent bad breath can actually be a sign of dental disease or other health problems. If you don’t already, have your dog’s teeth examined by a veterinarian every year.";
@@ -66,11 +67,19 @@ function newFact() {
     fact[59] = "There are many breeds of dogs that look like wolves, but did you know that all the dogs we love today have descended from the wild wolf? Wolves would certainly not make a good pet and while wolf-dog hybrids do exist, they are only recommended for experienced dog owners.";
     fact[60] = "It’s a challenge to estimate how many dogs currently live around the world, but according to the most recent estimations, there are approximately 900 million. About 75-85 percent of those dogs are considered free-range, meaning they are not owned by humans and an estimated 200 million dogs are strays according to the World Health Organization. With many countries requiring pets to be registered, the country with the most pet dogs is France with a dog to human ratio of 17 to 100.";
 		
+=======
+	
+	
+>>>>>>> ac0e6f6fd264c252d7bc72973ae17fcc287bc3d3
 	index = Math.floor(Math.random() * fact.length);
 	
 	document.getElementById('title-fact').innerHTML = fact[index];
 	
+<<<<<<< HEAD
 	var images = new Array(12);
+=======
+	var images = new Array(5);
+>>>>>>> ac0e6f6fd264c252d7bc72973ae17fcc287bc3d3
 
 images[0] = new Image();
 images[0].src = "images/dog_img1.jpeg";
@@ -90,6 +99,7 @@ images[4].src = "images/dog_img5.jpg";
 images[5] = new Image();
 images[5].src = "images/dog_img6.jpg";
 
+<<<<<<< HEAD
 images[6] = new Image();
 images[6].src = "images/dog_img7.jfif";
 
@@ -108,6 +118,8 @@ images[10].src = "images/dog_img11.jfif";
 images[11] = new Image();
 images[11].src = "images/dog_img12.jfif";
 
+=======
+>>>>>>> ac0e6f6fd264c252d7bc72973ae17fcc287bc3d3
 index = Math.floor(Math.random() * images.length);
 
 document.getElementById('dog-image').src = images[index].src;
