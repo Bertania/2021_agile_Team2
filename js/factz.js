@@ -31,4 +31,27 @@ function newFact() {
 	
 	document.getElementById('title-fact').innerHTML = fact[index];
 	
+	var images = new Array(5);
+
+images[0] = new Image();
+images[0].src = "images/dog_img1.jpeg";
+
+images[1] = new Image();
+images[1].src = "images/dog_img2.jpg";
+
+images[2]= new Image();
+images[2].src = "images/dog_img3.jpg";
+
+images[3] = new Image();
+images[3].src = "images/dog_img4.jpg";
+
+images[4] = new Image();
+images[4].src = "images/dog_img5.jpg";
+
+images[5] = new Image();
+images[5].src = "images/dog_img6.jpg";
+
+index = Math.floor(Math.random() * images.length);
+
+document.getElementById('dog-image').src = images[index].src;
 }
