@@ -55,4 +55,4 @@ i = Math.floor(Math.random() * images.length);
 
 document.getElementById('dog-image').src = images[i].src;
 }
- 
+
