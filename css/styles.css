@@ -35,6 +35,10 @@ h6 {
 	line-height: 1.5;
 }
 
+#quiz-heading {
+	height: 5%;
+}
+
 /*Nav Bar*/
 
 #appName {
@@ -60,10 +64,15 @@ h6 {
 	font-size: 1.2rem;
 }
 
-/* Download Buttons */
+/* Theme Buttons */
 
-.download-button {
-	margin: 5% 3% 5% 0;
+.btn {
+	margin: 3% 3% .25% 0;
+}
+
+#tooScary {
+
+	display: none;
 }
 
 /* Title Image */
@@ -78,6 +87,11 @@ h6 {
 
 #title-fact{
 	padding-top: 5%;
+}
+
+#spookyFact{
+	padding-top: 5%;
+	display: none;
 }
 
 #title-btn {
@@ -125,8 +139,11 @@ h6 {
 	color: #ff4c68;
 }
 
-#vid {
-	width: 800px;
+
+
+#vid1, #vid2 {
+	
+	width: 100%;
 	border: 5px solid #fff;
 	margin-left: auto;
 	margin-right: auto;
@@ -164,4 +181,12 @@ footer p {
 		position: static;
 		transform: rotate(0);
 	}
+
+
 }
+
+
+
+
+
+

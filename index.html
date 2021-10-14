@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -16,7 +16,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
@@ -51,12 +52,14 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<h1 class="big-heading">Find out more about your favorite four legged friend.</h1>
-					<button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
-					<button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+					<button type="button" id="halloween" class="btn btn-dark btn-lg">Theme</button>
+					<button type="button" id="tooScary" class="btn btn-dark btn-lg">Too Scared</button>
+					
 				</div>
 				<div id="title-div" class="col-lg-6">
 					<img id='dog-image' class="title-image" src="images/dog_img1.jpeg" alt="">
 					<h2 id="title-fact">"There are more dog owners than cat owners." - Me</h2>
+					<h2 id="spookyFact">Dogs are more alert than we think...</h2>
 
 					<button id="title-btn" onclick="newFact()" class="
 					btn btn-light">More Factz</button>
@@ -66,7 +69,6 @@
 		</div>
 
 	</section>
-
 
 	<!-- Features -->
 
@@ -106,13 +108,12 @@
 	<!-- Footer -->
 
 	<footer id="footer">
-		<i class="social-icon fab fa-facebook-f"></i>
-		<i class="social-icon fab fa-twitter"></i>
-		<i class="social-icon fab fa-instagram"></i>
 		<i class="social-icon fas fa-envelope-square"></i>
 		<p>© Copyright 2021 Team 2 Dog Factz</p>
 
 	</footer>
 <script src="js/factz.js"></script>
+<script src="js/halloween.js"></script>
+
 
 </body></html>
