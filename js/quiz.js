@@ -123,9 +123,13 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
     }
 
     // Show number of correct answers out of total
-    if(numCorrect == questions.length) {
+    if(numCorrect == questions.length) {  // if answers are all correct
+      const audio = new Audio("./media/dog_bark.wav");
+      audio.play();
       resultsContainer.innerHTML = "Congrats! You got all " + questions.length + " questions correct!";
-    } else if(numCorrect == 0) {
+    } else if(numCorrect == 0) {  // if answers are all incorrect
+      const audio = new Audio("./media/dog_whimper.wav");
+      audio.play();
       resultsContainer.innerHTML = "Too bad.  You got all " + questions.length + " questions incorrect.  Try again?";
     } else
     resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length + " questions correct.";
