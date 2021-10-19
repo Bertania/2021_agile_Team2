@@ -26,7 +26,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="setInterval(newImg , 5000)">
 
 	<section id="title">
 		<div class="container-fluid">
@@ -71,7 +71,7 @@
 					<h2 id="spookyFact">Dogs are more alert than we think...</h2>
 
 
-					<button id="title-btn" onclick="newFact()" class="
+					<button id="title-btn" onclick="newFact();" class="
 					btn btn-light">More Factz</button>
 				</div>
 			</div>
@@ -123,7 +123,7 @@
 		<a href="https://twitter.com/DogFactz2021"><i class="social-icon fab fa-twitter"></i></a>
 		<a href="https://www.instagram.com/dogfactz2021/"><i class="social-icon fab fa-instagram"></i></a>
 		<a href="mailto:dogfactz2021@gmail.com"><i class="social-icon fas fa-envelope-square"></i></a>
-		<p>© Copyright 2021 Team 2 Dog Factz</p>
+		<p >© Copyright 2021 Team 2 Dog <a onclick="moreFacts();" href="#footer">Factz</a></p>
 
 	</footer>
 <script src="js/factz.js"></script>
