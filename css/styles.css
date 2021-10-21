@@ -232,6 +232,11 @@ footer p {
 	#title {
 		text-align: center;
 	}
+	
+	#title-fact {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
 
 	.title-image {
 		position: static;
