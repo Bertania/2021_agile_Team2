@@ -17,6 +17,7 @@ $(function() {
         $('.feature-title').text("Frightening Fun!");
         $(".fas").attr("class", "fas fa-ghost fa-7x"); 
         $(".fa-ghost").css("color", "#FF5733");
+	$('#halloween').css("visibility", "hidden");
 	$(".fa-ghost").mouseenter(function() {
             $(this).css("color", "#fff");
         });
