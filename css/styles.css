@@ -225,10 +225,6 @@ footer p {
 		padding: 3% 15% 7%;
 	}
 
-	.icon-bar {
-		visibility: hidden;
-	}
-
 	#title {
 		text-align: center;
 	}
@@ -243,7 +239,10 @@ footer p {
 		transform: rotate(0);
 	}
 
-
+	#hide-nav {
+		visibility: hidden;
+	}
+	
 }
 
 
