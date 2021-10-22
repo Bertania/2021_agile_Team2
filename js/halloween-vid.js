@@ -7,6 +7,7 @@ $(function() {
         $('.container-fluid').css('background-color', "#FF7518");
         $('#footer').css("background-color", "#FF7518");
         $('h1.big-heading').css("color", "#000");
+        $('#halloween').css("visibility", "hidden");
         
         $('h1.big-heading').text('Watch Out!');
         $('#appName').css("color", "#000");
