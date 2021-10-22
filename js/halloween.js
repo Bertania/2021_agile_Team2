@@ -10,7 +10,8 @@ $(function() {
         $('h1.big-heading').css("color", "#000");
         
         $('h1.big-heading').text('Watch Out!');
-        $('#appName').css("color", "#000");
+		$('#appName').css("background-color", "#000");
+        $('#appName').css("color", "#FF7518");
         $('#title-fact').css("color", "#000");
         $('h3.feature-title').css("color", "#fff");
 	    $('.feature-p').text("So easy its scary!"); 

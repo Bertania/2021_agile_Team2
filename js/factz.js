@@ -148,4 +148,13 @@ function img() {
 	$('#dog-image').fadeTo(4000, 1);
 });
 }
+<<<<<<< HEAD
 });
+=======
+});
+
+function spookSound() {
+	const audio = new Audio("./media/hTheme.wav");
+	audio.play();
+}
+>>>>>>> 4f2d4128aadc81d41011c2e50edfccc212b853bd
