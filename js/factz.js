@@ -137,6 +137,7 @@ function moreFacts() {
 	moreFactz[18] = "The heaviest breed, the Mastiff, weighs about 200 pounds.";
 	moreFactz[19] = "More than half of all U.S. presidents have owned dogs.";
 	moreFactz[20] = "President Calvin Coolidge owned at least a dozen dogs.";
+	
 	var index = Math.floor(Math.random()*moreFactz.length);
 	window.alert(moreFactz[index]);
 }
@@ -148,13 +149,9 @@ function img() {
 	$('#dog-image').fadeTo(4000, 1);
 });
 }
-<<<<<<< HEAD
-});
-=======
 });
 
 function spookSound() {
 	const audio = new Audio("./media/hTheme.wav");
 	audio.play();
 }
->>>>>>> 4f2d4128aadc81d41011c2e50edfccc212b853bd
