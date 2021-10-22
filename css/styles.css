@@ -48,6 +48,9 @@ h6 {
 
 #appName {
 	font-size: 1.5rem;
+	color: #ff4c68;
+	background-color: white;
+	border-radius: 10px;
 }
 
 .navbar {
