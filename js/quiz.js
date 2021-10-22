@@ -123,9 +123,6 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
     }
 
     // Show number of correct answers out of total
-<<<<<<< HEAD
-    resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
-=======
     if(numCorrect == questions.length) {  // if answers are all correct
       const audio = new Audio("./media/dog_bark.wav");
       audio.play();
@@ -136,7 +133,6 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
       resultsContainer.innerHTML = "Too bad.  You got all " + questions.length + " questions incorrect.  Try again?";
     } else
     resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length + " questions correct.";
->>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
   }
 
   // Show questions right away
@@ -147,8 +143,4 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
     showResults(questions, quizContainer, resultsContainer);
   }
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe

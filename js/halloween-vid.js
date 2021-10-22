@@ -11,10 +11,6 @@ $(function() {
         $('h1.big-heading').text('Watch Out!');
         $('#appName').css("color", "#000");
         $(".fas").attr("class", "fas fa-ghost fa-7x"); 
-<<<<<<< HEAD
-        $(".fas").css("color", "#FF5733");      
-
-=======
         $(".fas").css("color", "#FF5733");
         
         $(".fa-ghost").mouseenter(function() {
@@ -24,7 +20,6 @@ $(function() {
         $(".fa-ghost").mouseleave(function() {
             $(this).css("color", "#FF5733");
         });
->>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
         $('#halloween').fadeTo(1000, 0.0, function() {
             $('#halloween').attr("class", "btn btn-light btn-lg");            
             $('#halloween').fadeTo(500, 1);
@@ -46,8 +41,4 @@ $(function() {
 
     })
 
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe

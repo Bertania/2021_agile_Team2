@@ -1,12 +1,6 @@
 function newFact() {
-	
-	// Casey - thinking an onclick event handler // to change the photo or fact to another one
-	
-<<<<<<< HEAD
-	var fact = new Array(60);
-=======
+		
 	var fact = new Array(61);
->>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
 	
 	fact[0] = "Adult dogs have 42 permanent teeth.";
 	fact[1] = "Dogs sweat through the pads on their feet.";
@@ -20,15 +14,15 @@ function newFact() {
 	fact[9] = "The Labrador Retriever is the most popular breed of dog in the United States.";
 	fact[10] = "Dogs have 3 eyelids.";
 	fact[11] = "Dogs can smell thousands of times better than humans. Their noses have millions more scent receptors—for example, a human nose averages 5 million while a Dachshund’s nose has 125 million—making them useful in sniffing out drugs, dead bodies, bed bugs, explosives, and more.";
-	fact[12] = "Dogs’ sense of smell might be pretty amazing, but don’t forget about their hearing! Everything from the positioning of their ears to the muscles in them helps them pick up a whole host of sounds that humans can’t pick up. In fact, the most popular explanation for why dogs tilt their heads is that they’re trying to locate the source of a sound.";
+	fact[12] = "Dogs’ sense of smell might be pretty amazing, but don’t forget about their hearing! Everything from the positioning of their ears to the muscles in them helps them pick up a whole host of sounds that humans can’t pick up. In fact, the most popular explanation for why dogs tilt their heads is that they’re trying to locate the source of a sound.";
 	fact[13] = "Dogs have approximately a sixth of the number of taste buds that humans have (1,700 taste buds to humans’ approximately 9,000). This is why dogs will scarf rotting food scraps as voraciously as they’ll eat a bowl of kibble or a hunk of steak. Their less discriminatory sense of taste also has to do with their evolutionary instincts, carried over from when they would scavenge in the wild.";
 	fact[14] = "Dogs have approximately a sixth of the number of taste buds that humans have (1,700 taste buds to humans’ approximately 9,000). This is why dogs will scarf rotting food scraps as voraciously as they’ll eat a bowl of kibble or a hunk of steak. Their less discriminatory sense of taste also has to do with their evolutionary instincts, carried over from when they would scavenge in the wild.";
 	fact[15] = "A dog’s nose is the equivalent of a human fingerprint, with each having a unique pattern of ridges and creases."
-	fact[16] = "If you’ve ever noticed your pooch twitching in her sleep, this probably means she’s dreaming. Researchers found that dogs have similar sleep patterns and brain activity as humans, and that small breeds tend to dream more than large ones. Psychology Today suggests they’re probably imagining familiar activities like playing outside or chasing their tail.";
+	fact[16] = "If you’ve ever noticed your pooch twitching in her sleep, this probably means she’s dreaming. Researchers found that dogs have similar sleep patterns and brain activity as humans, and that small breeds tend to dream more than large ones. Psychology Today suggests they’re probably imagining familiar activities like playing outside or chasing their tail.";
 	fact[17] = "According to canine researcher and author Stanley Coren, your toddler and pup are about on par when it comes to brains. He also explained that man’s best friend can count, understand over 150 words, and even trick people or other dogs to get treats. Intelligence varies based on breed—Border collies are the smartest.";
 	fact[18]= "Unspayed females only go into heat twice a year, so dog breeders need to plan carefully.";
-	fact[19] = "If your dog excitedly wags its tail, it means they’re happy to see you, right? Not necessarily. According to Discovery.com, dogs wag their tails to the right when they’re happy and to the left when they’re frightened. Wagging low means they’re insecure, and rapid tail wagging accompanied by tense muscles or dilated pupils can signal aggression.";
-	fact[20] = "Newborn dogs are still developing, according to Psychology Today, so their ear canals and eyes are still closed. Most puppies open their eyes and respond to noises after about two weeks.";
+	fact[19] = "If your dog excitedly wags its tail, it means they’re happy to see you, right? Not necessarily. According to Discovery.com, dogs wag their tails to the right when they’re happy and to the left when they’re frightened. Wagging low means they’re insecure, and rapid tail wagging accompanied by tense muscles or dilated pupils can signal aggression.";
+	fact[20] = "Newborn dogs are still developing, according to Psychology Today, so their ear canals and eyes are still closed. Most puppies open their eyes and respond to noises after about two weeks.";
 	fact[21] = "Even though they sweat out through the pads of their paws, their main form of cooling down is panting.";
     fact[22] = "Some pet owners might notice the faint scent of corn chips or popcorn lingering around their dog. This is called “Frito feet,” and it happens when sweat and bacteria build up in the paws.";
     fact[23] = "You might expect your dog’s mouth to smell like, well, dog. But persistent bad breath can actually be a sign of dental disease or other health problems. If you don’t already, have your dog’s teeth examined by a veterinarian every year.";
@@ -69,22 +63,15 @@ function newFact() {
     fact[58] = "Stray dogs have mastered the art of the complex Metro in Moscow, Russia. They have been seen to get on and off at regular stops in search of food. The commuters have become so used to seeing the dogs riding the train with them that they barely notice anymore. As many as 35,000 stray dogs live in Moscow so this is truly a case of survival of the fittest.";
     fact[59] = "There are many breeds of dogs that look like wolves, but did you know that all the dogs we love today have descended from the wild wolf? Wolves would certainly not make a good pet and while wolf-dog hybrids do exist, they are only recommended for experienced dog owners.";
     fact[60] = "It’s a challenge to estimate how many dogs currently live around the world, but according to the most recent estimations, there are approximately 900 million. About 75-85 percent of those dogs are considered free-range, meaning they are not owned by humans and an estimated 200 million dogs are strays according to the World Health Organization. With many countries requiring pets to be registered, the country with the most pet dogs is France with a dog to human ratio of 17 to 100.";
-<<<<<<< HEAD
-=======
     fact[61]= "Scientists believe that the world’s first known dog lived 31,700 years ago. This prehistoric dog resembled a large Siberian Husky.";
->>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
 		
 	index = Math.floor(Math.random() * fact.length);
 	
 	document.getElementById('title-fact').innerHTML = fact[index];
 	
-<<<<<<< HEAD
-	var images = new Array(12);
-=======
 }
 function newImg() {
 		var images = new Array(12);
->>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
 
 images[0] = new Image();
 images[0].src = "images/dog_img1.jpeg";
@@ -126,8 +113,6 @@ index = Math.floor(Math.random() * images.length);
 
 document.getElementById('dog-image').src = images[index].src;
 }
-<<<<<<< HEAD
-=======
 function moreFacts() {
 	var moreFactz = new Array();
 	
@@ -164,4 +149,3 @@ function img() {
 });
 }
 });
->>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
