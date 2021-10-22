@@ -21,6 +21,14 @@ h6 {
 	padding: 3% 15% 5%;
 }
 
+<<<<<<< HEAD
+=======
+#quiz-container {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+>>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
 /* Headings */
 
 .big-heading {
@@ -64,10 +72,58 @@ h6 {
 	font-size: 1.2rem;
 }
 
+<<<<<<< HEAD
+=======
+/* Social Media Icon Bar */
+
+.icon-bar {
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.icon-bar a {
+	display: block;
+	text-align: center;
+	border-radius: 0px 20px 20px 0px;
+	padding: 16px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+}
+
+.icon-bar a:hover {
+	background-color: #000;
+	color: white;
+  }
+
+  .twitter {
+	background: #55ACEE;
+	color: white;
+  }
+
+  .instagram {
+	  background: #8a3ab9;
+	  color: white;
+  }
+
+  .email {
+	  background: darkblue;
+	  color: white;
+  }
+
+>>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
 /* Theme Buttons */
 
 .btn {
 	margin: 3% 3% .25% 0;
+<<<<<<< HEAD
+=======
+	padding-top: 10%;
+	padding-bottom: 3%;
+>>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
 }
 
 #tooScary {
@@ -154,7 +210,11 @@ h6 {
 
 #footer {
 	background-color: #ff4c68;
+<<<<<<< HEAD
 	padding: 7% 15%;
+=======
+	padding: 3% 7%;
+>>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
 	text-align: center;
 	position: relative;
 	z-index: 1;
@@ -166,6 +226,14 @@ footer p {
 
 .social-icon {
 	margin: 10px 10px;
+<<<<<<< HEAD
+=======
+	color: #000;
+}
+
+.social-icon:hover {
+	color: #fff;
+>>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
 }
 
 @media (max-width: 1028px) {
@@ -176,13 +244,28 @@ footer p {
 	#title {
 		text-align: center;
 	}
+<<<<<<< HEAD
+=======
+	
+	#title-fact {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+>>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
 
 	.title-image {
 		position: static;
 		transform: rotate(0);
 	}
 
+<<<<<<< HEAD
 
+=======
+	#hide-nav {
+		visibility: hidden;
+	}
+	
+>>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
 }
 
 

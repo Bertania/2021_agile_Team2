@@ -2,7 +2,11 @@ function newFact() {
 	
 	// Casey - thinking an onclick event handler // to change the photo or fact to another one
 	
+<<<<<<< HEAD
 	var fact = new Array(60);
+=======
+	var fact = new Array(61);
+>>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
 	
 	fact[0] = "Adult dogs have 42 permanent teeth.";
 	fact[1] = "Dogs sweat through the pads on their feet.";
@@ -65,12 +69,22 @@ function newFact() {
     fact[58] = "Stray dogs have mastered the art of the complex Metro in Moscow, Russia. They have been seen to get on and off at regular stops in search of food. The commuters have become so used to seeing the dogs riding the train with them that they barely notice anymore. As many as 35,000 stray dogs live in Moscow so this is truly a case of survival of the fittest.";
     fact[59] = "There are many breeds of dogs that look like wolves, but did you know that all the dogs we love today have descended from the wild wolf? Wolves would certainly not make a good pet and while wolf-dog hybrids do exist, they are only recommended for experienced dog owners.";
     fact[60] = "It’s a challenge to estimate how many dogs currently live around the world, but according to the most recent estimations, there are approximately 900 million. About 75-85 percent of those dogs are considered free-range, meaning they are not owned by humans and an estimated 200 million dogs are strays according to the World Health Organization. With many countries requiring pets to be registered, the country with the most pet dogs is France with a dog to human ratio of 17 to 100.";
+<<<<<<< HEAD
+=======
+    fact[61]= "Scientists believe that the world’s first known dog lived 31,700 years ago. This prehistoric dog resembled a large Siberian Husky.";
+>>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
 		
 	index = Math.floor(Math.random() * fact.length);
 	
 	document.getElementById('title-fact').innerHTML = fact[index];
 	
+<<<<<<< HEAD
 	var images = new Array(12);
+=======
+}
+function newImg() {
+		var images = new Array(12);
+>>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
 
 images[0] = new Image();
 images[0].src = "images/dog_img1.jpeg";
@@ -112,3 +126,42 @@ index = Math.floor(Math.random() * images.length);
 
 document.getElementById('dog-image').src = images[index].src;
 }
+<<<<<<< HEAD
+=======
+function moreFacts() {
+	var moreFactz = new Array();
+	
+	moreFactz[0] = "Puppies love games such as hide and seek! Hide and call their name so they can try to find you.";
+	moreFactz[1] = "Dogs can learn more than 1,000 words.";
+	moreFactz[2] = "Puppies grow to half their body weight in the first four to five months!";
+	moreFactz[3] = "Puppies can sleep 18 to 20 hours a day during that rapid body growth phase.";
+	moreFactz[4] = "Dogs sometimes appear to smile — much like humans — with open mouth grinning. This may indicate a relaxed, submissive state.";
+	moreFactz[5] = "Tired puppies get cranky just like little kids. If you have a fussy puppy, try nap time.";
+	moreFactz[6] = "The fastest breed, the Greyhound, can run up to 44 miles per hour.";
+	moreFactz[7] = "Perky-eared dogs hear sounds better than floppy-eared dogs.";
+	moreFactz[8] = "There are about 400 million dogs in the world.";
+	moreFactz[9] = "The Labrador Retriever is the most popular breed, according to the American Kennel Club.";
+	moreFactz[10] = "Dogs have dreams.";
+	moreFactz[11] = "The average dog lives 10 to 14 years.";
+	moreFactz[12] = "In general, smaller breeds live longer than larger breeds.";
+	moreFactz[13] = "The world’s oldest breed, the Saluki, originated in Egypt around 329 B.C.";
+	moreFactz[14] = "According to a study shared by Cornell University, dogs were domesticated between 9,000 and 34,000 years ago.";
+	moreFactz[15] = "Thomas Jefferson helped enact a dog tax in Virginia, because he was annoyed that dogs were killing his sheep.";
+	moreFactz[16] = "Stroking dogs and gazing into their eyes releases the “feel good” hormone oxytocin for both people and dogs.";
+	moreFactz[17] = "Dogs are omnivores — they eat meat, grains and vegetables.";
+	moreFactz[18] = "The heaviest breed, the Mastiff, weighs about 200 pounds.";
+	moreFactz[19] = "More than half of all U.S. presidents have owned dogs.";
+	moreFactz[20] = "President Calvin Coolidge owned at least a dozen dogs.";
+	var index = Math.floor(Math.random()*moreFactz.length);
+	window.alert(moreFactz[index]);
+}
+$(document).ready(function(){
+setInterval(img, 10000);
+function img() {
+	$('#dog-image').fadeTo(4000, 0.0, function(){
+	newImg();
+	$('#dog-image').fadeTo(4000, 1);
+});
+}
+});
+>>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe

@@ -16,7 +16,20 @@ $(function() {
 	    $('.feature-p').text("So easy its scary!"); 
         $('.feature-title').text("Frightening Fun!");
         $(".fas").attr("class", "fas fa-ghost fa-7x"); 
+<<<<<<< HEAD
         $(".fas").css("color", "#FF5733");      
+=======
+        $(".fa-ghost").css("color", "#FF5733");
+	$('#halloween').css("visibility", "hidden");
+	$(".fa-ghost").mouseenter(function() {
+            $(this).css("color", "#fff");
+        });
+        
+        $(".fa-ghost").mouseleave(function() {
+            $(this).css("color", "#FF5733");
+        });
+	    
+>>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
         $('#dog-image').fadeTo(1500, 0.0, function() {
             $('#dog-image').attr("src", 'images/spooky dog.jpeg');
             $('#dog-image').fadeTo(1, 1);
@@ -66,4 +79,8 @@ $(function() {
 
     })
 
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 2ced93640031c12e6c019e7a135a637755ac2fbe
