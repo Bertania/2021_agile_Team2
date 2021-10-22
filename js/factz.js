@@ -151,3 +151,8 @@ function img() {
 });
 }
 });
+
+function spookSound() {
+	const audio = new Audio("./media/hTheme.wav");
+	audio.play();
+}
