@@ -189,6 +189,18 @@ h6 {
 	color: #ff4c68;
 }
 
+.fa-bone {
+	color: #fff;
+	margin-left: 10%;
+}
+
+.fa-bone:hover {
+	color: 	#D3D3D3;
+}
+
+.fa-bone p {
+	font-size: 1.5rem;
+}
 
 
 #vid1, #vid2 {

@@ -137,7 +137,7 @@ function moreFacts() {
 	moreFactz[18] = "The heaviest breed, the Mastiff, weighs about 200 pounds.";
 	moreFactz[19] = "More than half of all U.S. presidents have owned dogs.";
 	moreFactz[20] = "President Calvin Coolidge owned at least a dozen dogs.";
-	
+
 	var index = Math.floor(Math.random()*moreFactz.length);
 	window.alert(moreFactz[index]);
 }
@@ -155,3 +155,42 @@ function spookSound() {
 	const audio = new Audio("./media/hTheme.wav");
 	audio.play();
 }
+
+$(function() {
+
+	
+
+	$('#bone').click(function(e) {
+
+		$(this).fadeTo(1000, 0.0, function() {
+			
+			$(this).append( "<p>Before dog biscuits, ‘dog’s bread’ was the term people have used for dogs snacks.</p>"
+			).fadeTo(800, 1.0);
+			})
+
+		})
+
+		$('#bone2').click(function(e) {
+
+			$(this).fadeTo(1000, 0.0, function() {
+				
+				$(this).append( "<p>The world’s biggest dog biscuit was made in the USA in 2011 and was 579cm long and 115cm wide and it weighed 279kg.</p>"
+				).fadeTo(800, 1.0);
+				})
+	// goes to the bottom of the page
+			})
+
+			
+		$('#bone3').click(function(e) {
+
+			$(this).fadeTo(1000, 0.0, function() {
+				
+				$(this).append( "<p>Soy milk is great for dogs as it is lactose-free, meaning that it won’t give your dog/s any tummy problems.</p>"
+				).fadeTo(800, 1.0);
+				})
+	
+			})
+		
+
+	
+})
