@@ -198,7 +198,26 @@ h6 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 5%;
+	margin-top: 5%;
 }
+
+#wellness {
+	
+	border: 5px solid #fff;
+	text-align: left;
+	font-size: 1.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	padding: .5%;
+}
+ 
+#wellness h3 {
+	font-weight: bold;
+}
+
+
 
 /* Footer */
 

@@ -1,7 +1,5 @@
 function newFact() {
-	
-	// Casey - thinking an onclick event handler // to change the photo or fact to another one
-	
+		
 	var fact = new Array(61);
 	
 	fact[0] = "Adult dogs have 42 permanent teeth.";
@@ -16,15 +14,15 @@ function newFact() {
 	fact[9] = "The Labrador Retriever is the most popular breed of dog in the United States.";
 	fact[10] = "Dogs have 3 eyelids.";
 	fact[11] = "Dogs can smell thousands of times better than humans. Their noses have millions more scent receptors—for example, a human nose averages 5 million while a Dachshund’s nose has 125 million—making them useful in sniffing out drugs, dead bodies, bed bugs, explosives, and more.";
-	fact[12] = "Dogs’ sense of smell might be pretty amazing, but don’t forget about their hearing! Everything from the positioning of their ears to the muscles in them helps them pick up a whole host of sounds that humans can’t pick up. In fact, the most popular explanation for why dogs tilt their heads is that they’re trying to locate the source of a sound.";
+	fact[12] = "Dogs’ sense of smell might be pretty amazing, but don’t forget about their hearing! Everything from the positioning of their ears to the muscles in them helps them pick up a whole host of sounds that humans can’t pick up. In fact, the most popular explanation for why dogs tilt their heads is that they’re trying to locate the source of a sound.";
 	fact[13] = "Dogs have approximately a sixth of the number of taste buds that humans have (1,700 taste buds to humans’ approximately 9,000). This is why dogs will scarf rotting food scraps as voraciously as they’ll eat a bowl of kibble or a hunk of steak. Their less discriminatory sense of taste also has to do with their evolutionary instincts, carried over from when they would scavenge in the wild.";
 	fact[14] = "Dogs have approximately a sixth of the number of taste buds that humans have (1,700 taste buds to humans’ approximately 9,000). This is why dogs will scarf rotting food scraps as voraciously as they’ll eat a bowl of kibble or a hunk of steak. Their less discriminatory sense of taste also has to do with their evolutionary instincts, carried over from when they would scavenge in the wild.";
 	fact[15] = "A dog’s nose is the equivalent of a human fingerprint, with each having a unique pattern of ridges and creases."
-	fact[16] = "If you’ve ever noticed your pooch twitching in her sleep, this probably means she’s dreaming. Researchers found that dogs have similar sleep patterns and brain activity as humans, and that small breeds tend to dream more than large ones. Psychology Today suggests they’re probably imagining familiar activities like playing outside or chasing their tail.";
+	fact[16] = "If you’ve ever noticed your pooch twitching in her sleep, this probably means she’s dreaming. Researchers found that dogs have similar sleep patterns and brain activity as humans, and that small breeds tend to dream more than large ones. Psychology Today suggests they’re probably imagining familiar activities like playing outside or chasing their tail.";
 	fact[17] = "According to canine researcher and author Stanley Coren, your toddler and pup are about on par when it comes to brains. He also explained that man’s best friend can count, understand over 150 words, and even trick people or other dogs to get treats. Intelligence varies based on breed—Border collies are the smartest.";
 	fact[18]= "Unspayed females only go into heat twice a year, so dog breeders need to plan carefully.";
-	fact[19] = "If your dog excitedly wags its tail, it means they’re happy to see you, right? Not necessarily. According to Discovery.com, dogs wag their tails to the right when they’re happy and to the left when they’re frightened. Wagging low means they’re insecure, and rapid tail wagging accompanied by tense muscles or dilated pupils can signal aggression.";
-	fact[20] = "Newborn dogs are still developing, according to Psychology Today, so their ear canals and eyes are still closed. Most puppies open their eyes and respond to noises after about two weeks.";
+	fact[19] = "If your dog excitedly wags its tail, it means they’re happy to see you, right? Not necessarily. According to Discovery.com, dogs wag their tails to the right when they’re happy and to the left when they’re frightened. Wagging low means they’re insecure, and rapid tail wagging accompanied by tense muscles or dilated pupils can signal aggression.";
+	fact[20] = "Newborn dogs are still developing, according to Psychology Today, so their ear canals and eyes are still closed. Most puppies open their eyes and respond to noises after about two weeks.";
 	fact[21] = "Even though they sweat out through the pads of their paws, their main form of cooling down is panting.";
     fact[22] = "Some pet owners might notice the faint scent of corn chips or popcorn lingering around their dog. This is called “Frito feet,” and it happens when sweat and bacteria build up in the paws.";
     fact[23] = "You might expect your dog’s mouth to smell like, well, dog. But persistent bad breath can actually be a sign of dental disease or other health problems. If you don’t already, have your dog’s teeth examined by a veterinarian every year.";
@@ -139,6 +137,7 @@ function moreFacts() {
 	moreFactz[18] = "The heaviest breed, the Mastiff, weighs about 200 pounds.";
 	moreFactz[19] = "More than half of all U.S. presidents have owned dogs.";
 	moreFactz[20] = "President Calvin Coolidge owned at least a dozen dogs.";
+	
 	var index = Math.floor(Math.random()*moreFactz.length);
 	window.alert(moreFactz[index]);
 }
